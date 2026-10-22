@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Consulta horarios, ubicaciones y reserva servicios escolares disponibles para estudiantes.">
+
+    <title>Agenda de servicios escolares</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#contenido-principal">
+        Ir al contenido principal
+    </a>
+
+
+    <header class="site-header" id="inicio">
+
+        <div class="contenedor">
+
+            <h1>Agenda de servicios escolares</h1>
+
+            <p>
+                Consulta servicios, horarios y ubicaciones disponibles
+                para estudiantes.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <nav
+        class="navegacion"
+        aria-label="Navegación principal">
+
+        <div class="contenedor">
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <a href="#servicios">
+                Servicios
+            </a>
+
+            <a href="#reserva">
+                Reservar
+            </a>
+
+            <a href="#directorio">
+                Directorio
+            </a>
+
+            <a href="#informacion">
+                Información
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <main id="contenido-principal">
+
+
+        <section
+            class="hero"
+            aria-labelledby="titulo-presentacion">
+
+            <div class="contenedor hero-contenido">
+
+                <div class="hero-texto">
+
+                    <h2 id="titulo-presentacion">
+                        Encuentra el servicio que necesitas
+                    </h2>
+
+                    <p>
+                        Consulta de manera rápida los principales servicios
+                        escolares, sus horarios y dónde se encuentran.
+                    </p>
+
+                    <a
+                        class="boton-enlace"
+                        href="#servicios">
+
+                        Consultar servicios escolares
+
+                    </a>
+
+                </div>
+
+
+                <img
+                    src="img/estudiantes.jpg"
+                    alt="Estudiantes caminando dentro de una universidad"
+                    width="420"
+                    height="280">
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="seccion"
+            id="servicios"
+            aria-labelledby="titulo-servicios">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-servicios">
+                    Servicios escolares
+                </h2>
+
+                <p>
+                    Conoce algunos de los servicios disponibles
+                    para estudiantes.
+                </p>
+
+
+                <div class="cards">
+
+
+                    <article class="card">
+
+                        <img
+                            src="img/biblioteca.jpg"
+                            alt="Estantes con libros dentro de una biblioteca"
+                            width="350"
+                            height="180"
+                            loading="lazy">
+
+                        <div class="card-contenido">
+
+                            <h3>Biblioteca</h3>
+
+                            <p>
+                                Consulta libros, materiales académicos
+                                y espacios de estudio.
+                            </p>
+
+                            <p>
+                                <strong>Categoría:</strong>
+                                Académico
+                            </p>
+
+                            <p>
+                                <strong>Horario:</strong>
+                                8:00 - 20:00
+                            </p>
+
+                            <p>
+                                <strong>Ubicación:</strong>
+                                Edificio A
+                            </p>
+
+                            <a
+                                class="reservar-link"
+                                href="#reserva"
+                                data-servicio="Biblioteca">
+
+                                Reservar servicio de Biblioteca
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <img
+                            src="img/tutorias.jpg"
+                            alt="Estudiantes participando en una tutoría"
+                            width="350"
+                            height="180"
+                            loading="lazy">
+
+                        <div class="card-contenido">
+
+                            <h3>Tutorías</h3>
+
+                            <p>
+                                Recibe orientación y acompañamiento académico.
+                            </p>
+
+                            <p>
+                                <strong>Categoría:</strong>
+                                Académico
+                            </p>
+
+                            <p>
+                                <strong>Horario:</strong>
+                                10:00 - 18:00
+                            </p>
+
+                            <p>
+                                <strong>Ubicación:</strong>
+                                Edificio B
+                            </p>
+
+                            <a
+                                class="reservar-link"
+                                href="#reserva"
+                                data-servicio="Tutorías">
+
+                                Reservar servicio de Tutorías
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <img
+                            src="img/becas.jpg"
+                            alt="Estudiante consultando información sobre una beca"
+                            width="350"
+                            height="180"
+                            loading="lazy">
+
+                        <div class="card-contenido">
+
+                            <h3>Becas</h3>
+
+                            <p>
+                                Consulta información sobre apoyos económicos
+                                y convocatorias para estudiantes.
+                            </p>
+
+                            <p>
+                                <strong>Categoría:</strong>
+                                Apoyo estudiantil
+                            </p>
+
+                            <p>
+                                <strong>Horario:</strong>
+                                9:00 - 15:00
+                            </p>
+
+                            <p>
+                                <strong>Ubicación:</strong>
+                                Edificio C
+                            </p>
+
+                            <a
+                                class="reservar-link"
+                                href="#reserva"
+                                data-servicio="Becas">
+
+                                Reservar servicio de Becas
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <img
+                            src="img/control-escolar.jpg"
+                            alt="Área de atención de una oficina escolar"
+                            width="350"
+                            height="180"
+                            loading="lazy">
+
+                        <div class="card-contenido">
+
+                            <h3>Control Escolar</h3>
+
+                            <p>
+                                Consulta información relacionada con
+                                trámites y documentación escolar.
+                            </p>
+
+                            <p>
+                                <strong>Categoría:</strong>
+                                Administrativo
+                            </p>
+
+                            <p>
+                                <strong>Horario:</strong>
+                                8:00 - 14:00
+                            </p>
+
+                            <p>
+                                <strong>Ubicación:</strong>
+                                Edificio D
+                            </p>
+
+                            <a
+                                class="reservar-link"
+                                href="#reserva"
+                                data-servicio="Control Escolar">
+
+                                Reservar servicio de Control Escolar
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <img
+                            src="img/soporte.jpg"
+                            alt="Persona utilizando una computadora"
+                            width="350"
+                            height="180"
+                            loading="lazy">
+
+                        <div class="card-contenido">
+
+                            <h3>Soporte de Cómputo</h3>
+
+                            <p>
+                                Recibe apoyo relacionado con equipos
+                                y servicios tecnológicos.
+                            </p>
+
+                            <p>
+                                <strong>Categoría:</strong>
+                                Tecnología
+                            </p>
+
+                            <p>
+                                <strong>Horario:</strong>
+                                9:00 - 17:00
+                            </p>
+
+                            <p>
+                                <strong>Ubicación:</strong>
+                                Centro de Cómputo
+                            </p>
+
+                            <a
+                                class="reservar-link"
+                                href="#reserva"
+                                data-servicio="Soporte de Cómputo">
+
+                                Reservar servicio de Soporte de Cómputo
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="seccion seccion-clara"
+            id="reserva"
+            aria-labelledby="titulo-reserva">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-reserva">
+                    Reserva un servicio
+                </h2>
+
+                <p id="instrucciones-reserva">
+                    Completa los siguientes datos para registrar
+                    una reserva de atención.
+                </p>
+
+
+                <form
+                    id="form-reserva"
+                    class="formulario-reserva">
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            autocomplete="name"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="servicio">
+                            Servicio
+                        </label>
+
+                        <select
+                            id="servicio"
+                            name="servicio"
+                            required>
+
+                            <option value="">
+                                Selecciona un servicio
+                            </option>
+
+                            <option value="Biblioteca">
+                                Biblioteca
+                            </option>
+
+                            <option value="Tutorías">
+                                Tutorías
+                            </option>
+
+                            <option value="Becas">
+                                Becas
+                            </option>
+
+                            <option value="Control Escolar">
+                                Control Escolar
+                            </option>
+
+                            <option value="Soporte de Cómputo">
+                                Soporte de Cómputo
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="fecha">
+                            Fecha
+                        </label>
+
+                        <input
+                            type="date"
+                            id="fecha"
+                            name="fecha"
+                            required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="hora">
+                            Hora
+                        </label>
+
+                        <select
+                            id="hora"
+                            name="hora"
+                            required>
+
+                            <option value="">
+                                Selecciona un horario
+                            </option>
+
+                            <option value="09:00">
+                                9:00
+                            </option>
+
+                            <option value="10:00">
+                                10:00
+                            </option>
+
+                            <option value="11:00">
+                                11:00
+                            </option>
+
+                            <option value="12:00">
+                                12:00
+                            </option>
+
+                            <option value="13:00">
+                                13:00
+                            </option>
+
+                            <option value="14:00">
+                                14:00
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="boton">
+
+                        Reservar servicio
+
+                    </button>
+
+                </form>
+
+
+                <div
+                    id="mensaje-reserva"
+                    class="mensaje-reserva"
+                    role="status"
+                    aria-live="polite"
+                    aria-atomic="true">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="seccion"
+            id="directorio"
+            aria-labelledby="titulo-directorio">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-directorio">
+                    Directorio de servicios
+                </h2>
+
+                <p>
+                    Consulta la información general de cada servicio.
+                </p>
+
+
+                <div class="tabla-contenedor">
+
+                    <table id="tabla-servicios">
+
+                        <caption>
+                            Horarios y ubicaciones de los servicios escolares
+                        </caption>
+
+                        <thead>
+
+                            <tr>
+
+                                <th scope="col">
+                                    Servicio
+                                </th>
+
+                                <th scope="col">
+                                    Categoría
+                                </th>
+
+                                <th scope="col">
+                                    Horario
+                                </th>
+
+                                <th scope="col">
+                                    Ubicación
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <th scope="row">
+                                    Biblioteca
+                                </th>
+
+                                <td>
+                                    Académico
+                                </td>
+
+                                <td>
+                                    8:00 - 20:00
+                                </td>
+
+                                <td>
+                                    Edificio A
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <th scope="row">
+                                    Tutorías
+                                </th>
+
+                                <td>
+                                    Académico
+                                </td>
+
+                                <td>
+                                    10:00 - 18:00
+                                </td>
+
+                                <td>
+                                    Edificio B
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <th scope="row">
+                                    Becas
+                                </th>
+
+                                <td>
+                                    Apoyo estudiantil
+                                </td>
+
+                                <td>
+                                    9:00 - 15:00
+                                </td>
+
+                                <td>
+                                    Edificio C
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <th scope="row">
+                                    Control Escolar
+                                </th>
+
+                                <td>
+                                    Administrativo
+                                </td>
+
+                                <td>
+                                    8:00 - 14:00
+                                </td>
+
+                                <td>
+                                    Edificio D
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <th scope="row">
+                                    Soporte de Cómputo
+                                </th>
+
+                                <td>
+                                    Tecnología
+                                </td>
+
+                                <td>
+                                    9:00 - 17:00
+                                </td>
+
+                                <td>
+                                    Centro de Cómputo
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="seccion seccion-clara"
+            id="informacion"
+            aria-labelledby="titulo-informacion">
+
+            <div class="contenedor">
+
+                <h2 id="titulo-informacion">
+                    Más información
+                </h2>
+
+                <p>
+                    Los horarios pueden cambiar durante periodos
+                    vacacionales o fechas especiales.
+                </p>
+
+                <p>
+                    Puedes revisar nuevamente los
+                    <a href="#servicios">
+                        servicios escolares disponibles
+                    </a>.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="contenedor">
+
+            <p>
+                <strong>
+                    Agenda de servicios escolares
+                </strong>
+            </p>
+
+            <p>
+                Información de apoyo para estudiantes.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
